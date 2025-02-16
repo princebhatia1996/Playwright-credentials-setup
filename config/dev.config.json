@@ -1,0 +1,21 @@
+{
+  "baseUrl": "https://www.saucedemo.com/",
+  "users": [
+    {
+      "type": "Admin-user",
+      "username": "standard_user",
+      "password": {
+        "iv": "1a92bcb76157f15fbfb3f1c86da7dcc1",
+        "content": "7e684f700bfe8bfbb1d94034"
+      }
+    },
+    {
+      "type": "Invalid-user",
+      "username": "invalid_user",
+      "password": {
+        "iv": "2ce9e6b829cf13fac0e9d20ac8bb501b",
+        "content": "35ecd255797b69"
+      }
+    }
+  ]
+}
