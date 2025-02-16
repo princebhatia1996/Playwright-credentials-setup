@@ -2,7 +2,27 @@
 
 This project provides a set of utilities for encrypting and decrypting environment variables using TypeScript. It is designed to work seamlessly with Playwright for testing purposes.
 
-//put the folder structure here
+# Folder Structure
+
+```
+playwright-encryption-app
+├── .gitignore
+├── config
+│ └── dev.config.json
+├── package.json
+├── playwright.config.ts
+├── README.md
+├── src
+│ ├── lib
+│ │ └── crypto.ts
+│ ├── tests
+│ │ └── login-test.test.ts
+│ └── util
+│ ├── decrypt.ts
+│ ├── encrypt.ts
+│ └── login.ts
+└── tsconfig.json
+```
 
 ## Installation
 
